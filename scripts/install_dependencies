@@ -1,5 +1,2 @@
 #!/bin/bash
 sudo apt install apache2 -y
-cd /var/www/html/music_app
-sudo npm -i
-
