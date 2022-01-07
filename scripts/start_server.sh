@@ -2,4 +2,4 @@
 cd /var/www/html/music_app
 npm i
 service apache2 start
-node app.js
+nohup node app.js > output.log &
